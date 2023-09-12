@@ -29,6 +29,7 @@ body{
     align-content: flex-start;
     justify-content: flex-start;
     align-items: flex-start;
+    font-family: var(--e-global-typography-text-font-family);
 
 }
 .icon_backhome{
