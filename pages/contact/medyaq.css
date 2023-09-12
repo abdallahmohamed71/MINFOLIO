@@ -1,0 +1,198 @@
+@media screen and (max-width: 575px){
+    /* ....................... */
+
+}
+@media screen and (min-width: 575px) and (max-width: 767px){
+    /* ....................... */
+    
+}
+@media screen and (max-width: 767px) {
+    #main #stamp{
+        display: none;
+    }
+   /* ....... */
+   .team{
+    padding: 0 2rem;
+   }
+   .cards_team{
+    padding:0;
+   }
+   .cardteam{
+    max-width:none  ;
+}
+  
+    /* ........................ */
+    .counter-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+      /* ........... */
+  
+    .textgallary {
+        display: flex;
+    flex-direction: column;
+    }
+     /* ...................... */
+     .cards_blogs{
+        display: flex;
+    flex-wrap: wrap;
+    }
+      /* ............................. */
+      .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 2rem;
+    }
+    .footer div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100%;
+        padding: 4rem 0;
+        text-align: center;
+    }
+    .footer h2{
+        
+        padding:0 ;
+    }
+
+}
+@media screen and (min-width: 767px) and (max-width: 992px){
+            .cardsprovide{
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+            }
+            /* .................... */
+      
+            /* ........................... */
+            /* .cards_team{
+                display: flex;
+                justify-content: center;
+                gap: 20px 0;
+            } */
+            /* .cardteam{
+                 max-width: 25rem;
+            } */
+           
+            
+}
+@media screen and (max-width: 992px){
+    nav{
+        background-color: white;
+        padding: 1rem 2rem;
+        display: flex;
+    }    
+    nav #logow{
+     display: none;
+    }  
+    nav #logod{
+        display: block;
+    }
+    nav ul{
+        /* display: flex; */
+        display: none;
+       
+    background-color:white;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    width: 100%;
+    margin-top: 2rem;
+    padding:0 1rem;
+     }
+     nav ul li{
+        width: 100%;
+        padding-top:0.5rem;
+        border-bottom: 0.1px solid rgb(37 37 37 / 17%);
+     }
+     nav ul li a{
+        color: black;
+     }
+     #link{
+        color: rgba(37,37,37,0.5) !important;
+     }
+     #link{
+        color: rgba(37,37,37,0.5) !important;
+    
+     }
+     .link{
+            display: flex;
+    justify-content: space-between;
+     }
+     .i_pg{
+        visibility: visible;
+    }
+    nav #menu{
+            display: block;    
+    }
+    #menu span{
+        background-color: black;
+    }
+    /* ......................... */
+   
+    .text_about div{
+        padding-top: 2rem;
+    }
+    /* ...................... */
+
+  
+     /* .......................... */
+     .backg_blog{
+        padding: 1rem;
+    }
+  
+   
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1100px){
+       
+    
+     
+        
+}
+@media screen and (max-width: 1100px){
+    /* .....................contact */
+   
+    .contact{
+        padding: 0 2rem;
+    }
+
+}
+@media screen and (min-width: 1100px) and (max-width: 1300px){
+
+}
+@media screen and (max-width:1300px) {
+    .cardteam{
+        max-width: none;
+    }
+    .form{
+        padding: 0 2rem;
+    }
+    .cards_input{
+        gap: 15px 0;
+        padding: 0;
+    }
+    .cards_input input{
+        width: 100%;
+    }
+    .erea{
+        padding: 0;
+    }
+    .info_form{
+        padding: 0;
+    }
+    .info_form h2{
+        font-size: 2rem;
+    }
+    .Card_input{
+        max-width:none;
+     }
+}

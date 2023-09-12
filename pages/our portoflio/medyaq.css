@@ -1,0 +1,241 @@
+@media screen and (max-width: 575px){
+    /* ....................... */
+    .ul_nav_tabs li{
+        padding: 0.5rem;
+    }
+    .ul_nav_tabs{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 575px) and (max-width: 767px){
+    /* ....................... */
+    
+}
+@media screen and (max-width: 767px) {
+    #main #stamp{
+        display: none;
+    }
+   /* ....... */
+   .team{
+    padding: 0 2rem;
+   }
+   .cards_team{
+    padding:0;
+   }
+   .cardteam{
+    max-width:none  ;
+}
+  
+    /* ........................ */
+    .counter-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+      /* ........... */
+  
+    .textgallary {
+        display: flex;
+    flex-direction: column;
+    }
+     /* ...................... */
+     .cards_blogs{
+        display: flex;
+    flex-wrap: wrap;
+    }
+      /* ............................. */
+      .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 2rem;
+    }
+    .footer div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100%;
+        padding: 4rem 0;
+        text-align: center;
+    }
+    .footer ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer h2{
+        
+        padding:0 ;
+    }
+
+}
+@media screen and (min-width: 767px) and (max-width: 992px){
+            .cardsprovide{
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+            }
+            /* .................... */
+            .backg_blog div{
+                /* padding-top: 1rem; */
+                padding: 1rem;
+                text-align: center;
+            }
+            .backg_blog h3{
+                font-size: 1.4rem;
+                font-weight: 700;
+            }
+            .backg_blog p{
+                font-size: 1rem;
+                color: #4b4a4a;
+            }
+            /* ........................... */
+            .cards_offe{
+                padding: 4rem  4rem;
+              }
+}
+@media screen and (max-width: 992px){   
+    nav{
+        background-color: white;
+        padding: 1rem 2rem;
+        display: flex;
+    }    
+    nav #logow{
+     display: none;
+    }  
+    nav #logod{
+        display: block;
+    }
+    nav ul{
+        /* display: flex; */
+        display: none;
+       
+    background-color:white;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    width: 100%;
+    margin-top: 2rem;
+    padding:0 1rem;
+     }
+     nav ul li{
+        width: 100%;
+        padding-top:0.5rem;
+        border-bottom: 0.1px solid rgb(37 37 37 / 17%);
+     }
+     nav ul li a{
+        color: black;
+     }
+     #link{
+        color: rgba(37,37,37,0.5) !important;
+        display: flex;
+    justify-content: space-between;
+     }
+     .i_pg{
+       visibility: visible;
+    }
+    nav #menu{
+            display: block;    
+    }
+    #menu span{
+        background-color: black;
+    }
+    /* ......................... */
+   
+    .text_about div{
+        padding-top: 2rem;
+    }
+    /* ...................... */
+    .cardmodern{
+        display: flex;
+    justify-content: center;
+    }
+    .cardprovide{
+        max-width: 100%;
+       
+    }
+    /* ................................... */
+  .card_offer{
+    max-width: none;
+  }
+  .populer{
+    max-width: none;
+    margin: 2rem 0;
+  }
+ 
+     /* .......................... */
+
+  
+   
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1100px){
+      .cardsprovide{
+        display: flex;
+      }
+        
+}
+@media screen and (max-width: 1100px){
+    .info_about{
+        padding: 0 2rem ;
+    }
+  
+    .provide{
+        padding: 2rem ;
+    }
+   
+   
+    /* ..... */
+    .blog_articles{
+        width: 100%;
+        padding: 0 2rem;
+    }
+/* ............................. */
+.cardteam{
+    margin-top: 1rem;
+}
+/* ........................... */
+    .clints{
+        padding: 0 2rem;
+    }
+    
+  
+
+}
+@media screen and (min-width: 1100px) and (max-width: 1300px){
+    /* .cardsprovide{
+        display: flex;
+        flex-wrap: nowrap;
+    } */
+    .cardsprovide{
+        display: flex;
+    }
+    .cardprovide{
+        max-width: 19rem;
+    }
+   
+
+}
+@media screen and (max-width:1300px) {
+    .cardteam{
+        max-width: none;
+    }
+    .nav_tabs {
+        padding: 0 2rem;
+        
+    }    
+   
+}
+@media screen and (min-width:1400px) and (max-width:1900px) {
+    .cards{
+        display: flex;
+    }
+    
+}
